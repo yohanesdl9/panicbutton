@@ -1,10 +1,12 @@
-package com.ydl.panicbutton
+package com.ydl.panicbutton.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import com.ydl.panicbutton.R
+import com.ydl.panicbutton.ui.main.MainActivity
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

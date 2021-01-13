@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">PanicButton</string>
+    <string name="app_name">Panic Button</string>
+
+    <string name="alert_dialog.error_title">Error</string>
+    <string name="alert_dialog.http_error_title">Http Error</string>
+    <string name="alert_dialog.message_title">Pesan</string>
+    <string name="alert_dialog.no_internet_message">Tidak ada koneksi internet : %s</string>
+    <string name="alert_dialog.rto_message">Request Time Out, coba beberapa saat lagi</string>
+    <string name="alert_dialog.http_error_message">Http Error %d : %s</string>
+    <string name="alert_dialog.unknown_error">Error : %s</string>
+    <string name="alert_dialog.close">Tutup</string>
+    <string name="alert_dialog.try_again">Coba lagi</string>
 </resources>
