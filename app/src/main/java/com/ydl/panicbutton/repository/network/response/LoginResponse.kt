@@ -23,8 +23,6 @@ data class LoginResponse (
         @SerializedName("telepon")
         val telepon: String,
         @SerializedName("email")
-        val email: String,
-        @SerializedName("username")
-        val username: String,
+        val email: String
     )
 }
