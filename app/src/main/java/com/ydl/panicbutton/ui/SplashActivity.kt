@@ -6,9 +6,10 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import com.ydl.panicbutton.R
+import com.ydl.panicbutton.ancestors.BaseActivity
 import com.ydl.panicbutton.ui.main.MainActivity
 
-class SplashActivity : AppCompatActivity() {
+class SplashActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)

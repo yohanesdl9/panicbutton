@@ -14,7 +14,7 @@ import com.ydl.panicbutton.custom_dialog.LoadingDialog
 import com.ydl.panicbutton.repository.network.response.ErrorResponseException
 import java.io.IOException
 
-class BaseActivity: AppCompatActivity() {
+open class BaseActivity: AppCompatActivity() {
     companion object{
         const val FROM = "FROM"
     }
